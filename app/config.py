@@ -1,20 +1,20 @@
 CONFIG = {
     'model': 'lama',
     # 'model': 'zits',
-    # 'model': 'ldm',
     # 'model': 'migan',
     # 'model': 'mat',
+    # 'model': 'ldm',
     # 'model': 'manga',
     # 'model': 'cv2',
 
+    'device': 'cpu',
     # 'device': 'mps',
     # 'device': 'cuda',
-    'device': 'cpu',
 
     'image': 'image_folder',
 
-    # 'mask': 'mask_folder/mask.png',
     'mask': 'mask_folder',
+    # 'mask': 'mask_folder/mask.png',
 
     'output': 'output_dir',
 }

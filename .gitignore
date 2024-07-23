@@ -10,9 +10,3 @@ tmp/
 
 .cache/*
 !.cache/
-image_folder/*
-!image_folder/
-mask_folder/*
-!mask_folder/
-output_dir/*
-!output_dir/
